@@ -10,6 +10,7 @@ def quadratic(a,b,c):
         e = (-b+math.sqrt(b**2-4*a*c))/(2*a)
         r = (-b-math.sqrt(b**2-4*a*c))/(2*a)
         return e,r
+
 # 测试：
 print('quadratic(2, 3, 1) =', quadratic(2, 3, 1))
 print('quadratic(1, 3, -4) =', quadratic(1, 3, -4))
